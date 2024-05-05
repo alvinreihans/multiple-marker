@@ -1,0 +1,8 @@
+Model Information:
+* title:	Usopp
+* source:	https://sketchfab.com/3d-models/usopp-ffacb683bca04734bd66c433f324f748
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
