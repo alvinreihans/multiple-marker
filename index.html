@@ -17,6 +17,8 @@
       vr-mode-ui="enabled: false"
       arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: false;"
     >
+      <!-- MARKER -->
+      <!-- hiro -->
       <a-marker preset="hiro">
         <a-box
           color="black"
@@ -24,6 +26,29 @@
           scale="0.5 0.5 0.5"
         ></a-box>
       </a-marker>
+      <!-- kanji -->
+      <a-marker preset="kanji">
+        <a-box color="red" material="opacity: 0.5;" scale="0.5 0.5 0.5"></a-box>
+      </a-marker>
+      <!-- barcode 0 -->
+      <a-marker type="barcode" value="0">
+        <a-box
+          color="yellow"
+          material="opacity: 0.5;"
+          scale="0.5 0.5 0.5"
+        ></a-box>
+      </a-marker>
+      <!-- barcode 1 -->
+      <!-- barcode 0 -->
+      <a-marker type="barcode" value="1">
+        <a-box
+          color="white"
+          material="opacity: 0.5;"
+          scale="0.5 0.5 0.5"
+        ></a-box>
+      </a-marker>
+
+      <!-- CAMERA AND CROSSHAIR -->
       <a-entity camera>
         <a-cursor></a-cursor>
       </a-entity>
